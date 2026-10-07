@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const title = "Nas Rocas Club — Um jeito de viver Búzios | Resid";
-const description = "O Nas Rocas está de volta: um destino icônico e uma comunidade seleta na Ilha Rasa, em Búzios.";
+const title = "Resid Nas Rocas - a ilha voltou a ser vivida";
+const description = "Resid Nas Rocas - a ilha voltou a ser vivida";
 const socialImage = "https://denisepaixaomarketing-maker.github.io/landing-page-influenciadores-resid-nas-rocas/nas-rocas-oficial/hero-nasrocas-BC6ue95b.webp";
 
 export const metadata: Metadata = {
