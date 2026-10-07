@@ -27,3 +27,6 @@
 @media(max-width:900px){.nr-header nav{display:none}.nr-experiences{grid-template-columns:repeat(2,1fr)}.nr-gallery{grid-template-columns:repeat(2,1fr)}.nr-editorial,.nr-community,.nr-logistics{grid-template-columns:1fr}.nr-section,.nr-editorial,.nr-community,.nr-membership{padding:70px 6vw}.nr-community img{height:380px}}
 @media(max-width:560px){.nr-header{padding:18px 6vw}.nr-header img{width:115px}.nr-header>a:last-child{font-size:.65rem}.nr-hero{padding:150px 6vw 100px}.nr-hero h1{font-size:4.3rem}.nr-experiences,.nr-plans{grid-template-columns:1fr}.nr-gallery{gap:16px}.nr-manifesto{min-height:480px;padding:60px 6vw}.nr-history>div{grid-template-columns:1fr 1fr}.nr-footer{flex-wrap:wrap}.nr-community img{height:300px}}
 .nr-community img.nr-community-photo{height:auto;display:block}
+.nr-form{width:100%;max-width:900px;height:540px;margin:40px auto 0;border:1px solid #ffffff20;border-radius:20px;overflow:hidden;background:var(--nr-dark)}
+#contato{scroll-margin-top:24px}
+@media(max-width:560px){.nr-form{height:600px}}
