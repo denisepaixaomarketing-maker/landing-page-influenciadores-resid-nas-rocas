@@ -33,10 +33,7 @@ const faqs = [
 const photos = [
   ["gallery-service-Bz94dXFD.webp", "Hospitalidade e serviço na ilha"],
   ["gallery-deck001-DOY2aimx.webp", "Deck à beira-mar"],
-  ["gallery-bar001-C2h5t6XC.webp", "Resid Bar Nas Rocas"],
-  ["gallery-pool-D5v3oCjX.webp", "Piscina ao pôr do sol"],
-  ["gallery-courts-Czg9y6fL.webp", "Quadras em meio à natureza"],
-  ["gallery-aerial-DAmUc6ht.webp", "Vista aérea do clube e do mar"]
+  ["gallery-bar001-C2h5t6XC.webp", "Resid Bar Nas Rocas"]
 ];
 
 function CTA({ children = "Conversar com o Concierge" }: { children?: React.ReactNode }) {
