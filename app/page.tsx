@@ -43,7 +43,7 @@ function CTA({ children = "Conversar com o Concierge" }: { children?: React.Reac
 
 export default function Home() {
   return <main className="nr-page" id="inicio" data-version="influenciadores-v2">
-    <header className="nr-header"><a href="#inicio" aria-label="Nas Rocas Club — início"><img src={asset("logo-nasrocas-bk94kHeN.webp")} alt="Nas Rocas Club" /></a><nav aria-label="Navegação"><a href="#clube">O clube</a><a href="#experiencias">Experiências</a><a href="#membership">Membership</a></nav><a href="#contato">Conhecer o Nas Rocas ↓</a></header>
+    <header className="nr-header"><a href="#inicio" aria-label="Resid — início"><img src={base + "/resid-logo.png"} alt="Resid" /></a><nav aria-label="Navegação"><a href="#clube">O clube</a><a href="#experiencias">Experiências</a><a href="#membership">Membership</a></nav><a href="#contato">Conhecer o Nas Rocas ↓</a></header>
     <section className="nr-hero">
       <img className="nr-cover" src={asset("hero-inauguracao.jpg")} alt="Pôr do sol sobre o mar e o Nas Rocas em Búzios" fetchPriority="high" />
       <div className="nr-hero-copy"><h1>A ilha voltou<br /><em>a ser vivida!</em></h1><p>Há uma Búzios que se conhece pelo mar, pelos encontros e pelo tempo que a gente escolhe viver com calma. O Nas Rocas abre um novo capítulo desse lugar.</p><CTA>Descobrir o Nas Rocas</CTA></div>
@@ -57,6 +57,6 @@ export default function Home() {
     <section className="nr-history"><p className="nr-label">MARCOS DO PROJETO</p><div>{[["2022","Idealização e aquisição da Ilha Rasa"],["2023","Início do desenvolvimento dos projetos"],["2025","Licenciamento e início das obras"],["2026","Inauguração oficial e implantação em fases"]].map(([year,text])=><article key={year}><h3>{year}</h3><p>{text}</p></article>)}</div></section>
     <section className="nr-section" id="duvidas"><p className="nr-label">PARA CONHECER MELHOR</p><h2>Algumas respostas,<br /><em>antes da conversa.</em></h2><div className="nr-faq">{faqs.map(([question,answer])=><details key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
     <section className="nr-contact" id="contato" aria-label="Formulário de contato"><p className="nr-label">RESID CLUB & HOTELS · NAS ROCAS CLUB</p><h2>Se esse lugar faz sentido,<br /><em>a conversa começa aqui.</em></h2><p>Conheça o projeto, tire suas dúvidas e descubra como viver o Nas Rocas com a sua família. O Concierge apresenta as condições atuais e acompanha os próximos passos da admissão.</p><ContactForm /></section>
-    <footer className="nr-footer"><img src={asset("logo-nasrocas-bk94kHeN.webp")} alt="Nas Rocas Club" /><p>RESID CLUB & HOTELS<br />ILHA RASA · BÚZIOS · RJ</p><a href="https://www.instagram.com/nasrocas.club/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#inicio">Voltar ao topo ↑</a></footer>
+    <footer className="nr-footer"><img src={base + "/resid-logo.png"} alt="Resid" /><p>RESID CLUB & HOTELS<br />ILHA RASA · BÚZIOS · RJ</p><a href="https://www.instagram.com/nasrocas.club/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#inicio">Voltar ao topo ↑</a></footer>
   </main>;
 }
