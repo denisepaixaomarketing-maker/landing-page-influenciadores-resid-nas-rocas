@@ -31,9 +31,10 @@ const faqs = [
   ["Como conhecer as condições e me tornar membro?", "Converse com o time do Nas Rocas para conhecer as modalidades, as condições vigentes e os detalhes do projeto. A adesão passa por avaliação e aprovação para preservar a essência da comunidade."]
 ];
 const photos = [
-  ["gallery-service-Bz94dXFD.webp", "Hospitalidade e serviço na ilha"],
-  ["gallery-deck001-DOY2aimx.webp", "Deck à beira-mar"],
-  ["gallery-bar001-C2h5t6XC.webp", "Resid Bar Nas Rocas"]
+  ["galeria-bar-inauguracao.jpg", "Aqui se vive bem — Resid Bar Nas Rocas"],
+  ["galeria-deck-inauguracao.jpg", "Encontros ao pôr do sol"],
+  ["galeria-praia-inauguracao.jpg", "O mar, a praia e o tempo sem pressa"],
+  ["galeria-descanso-inauguracao.jpg", "Pausa à beira-mar"]
 ];
 
 function CTA({ children = "Conversar com o Concierge" }: { children?: React.ReactNode }) {
