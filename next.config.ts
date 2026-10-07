@@ -4,8 +4,8 @@ const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isGitHubPages ? "/nas-rocas-club" : "",
-  assetPrefix: isGitHubPages ? "/nas-rocas-club/" : undefined,
+  basePath: isGitHubPages ? "/landing-page-influenciadores-resid-nas-rocas" : "",
+  assetPrefix: isGitHubPages ? "/landing-page-influenciadores-resid-nas-rocas/" : undefined,
   trailingSlash: isGitHubPages,
 };
 

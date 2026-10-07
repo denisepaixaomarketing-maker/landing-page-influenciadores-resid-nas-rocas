@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const title = "Búzios pelo olhar Resid.";
-const description = "O guia Resid para viver Búzios: passeios, restaurantes, benefícios, hospedagem e transfer para o lançamento Resid Nas Rocas.";
+const description = "O Nas Rocas está de volta: um destino icônico e uma comunidade seleta na Ilha Rasa, em Búzios.";
 const socialImage = "https://denisepaixaomarketing-maker.github.io/nas-rocas-club/og.png";
 
 export const metadata: Metadata = {
