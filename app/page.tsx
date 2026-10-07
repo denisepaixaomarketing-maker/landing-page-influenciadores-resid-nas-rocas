@@ -1,5 +1,6 @@
 import "./influenciadores.css";
 import ContactForm from "./ContactForm";
+import PageMotion from "./PageMotion";
 
 const base = process.env.GITHUB_ACTIONS === "true" ? "/landing-page-influenciadores-resid-nas-rocas" : "";
 const asset = (name: string) => base + "/nas-rocas-oficial/" + name;
@@ -43,6 +44,7 @@ function CTA({ children = "QUERO GARANTIR" }: { children?: React.ReactNode }) {
 
 export default function Home() {
   return <main className="nr-page" id="inicio" data-version="influenciadores-v2">
+    <PageMotion />
     <header className="nr-header"><a href="#inicio" aria-label="Resid — início"><img src={base + "/resid-logo.png"} alt="Resid" /></a><nav aria-label="Navegação"><a href="#clube">O clube</a><a href="#experiencias">Experiências</a><a href="#membership">Membership</a></nav><a href="#contato">Conhecer o Nas Rocas ↓</a></header>
     <section className="nr-hero">
       <img className="nr-cover" src={asset("hero-inauguracao.jpg")} alt="Pôr do sol sobre o mar e o Nas Rocas em Búzios" fetchPriority="high" />

@@ -34,3 +34,8 @@
 @media(max-width:900px){.nr-club-pillars{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.nr-club-pillars{grid-template-columns:1fr;gap:20px;margin-top:35px}}
 .nr-patrimony h2{max-width:1050px;font-size:clamp(2.5rem,4.5vw,4.6rem);line-height:1.15}.nr-patrimony .nr-intro{max-width:850px}
+.nr-reading-progress{position:fixed;inset:0 0 auto;height:3px;background:var(--nr-gold);z-index:30;transform:scaleX(0);transform-origin:left;pointer-events:none}
+.nr-motion-enabled .nr-cta{transition:background-color .25s ease,color .25s ease,border-color .25s ease,transform .25s ease}
+.nr-motion-enabled .nr-cta:hover{transform:translateY(-2px)}
+.nr-cta:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(prefers-reduced-motion:reduce){.nr-reading-progress{display:none}html{scroll-behavior:auto!important}.nr-page *{animation:none!important;transition:none!important}}
